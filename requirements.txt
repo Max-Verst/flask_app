@@ -8,6 +8,7 @@ itsdangerous
 Jinja2
 MarkupSafe
 packaging
+psycopg2-binary
 SQLAlchemy
 typing_extensions
 Werkzeug
