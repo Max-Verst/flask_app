@@ -17,4 +17,4 @@ def get_postgres_database_uri():
     sql_host = os.environ["SQL_HOST"]
     sql_port = os.environ["SQL_PORT"]
     sql_database = os.environ["SQL_DATABASE"]
-    return f"postgresql://{sql_user}:{sql_password}@{sql_host}:{sql_port}/{sql_database}"
+    return f"postgresql+psycopg://{sql_user}:{sql_password}@{sql_host}:{sql_port}/{sql_database}"
